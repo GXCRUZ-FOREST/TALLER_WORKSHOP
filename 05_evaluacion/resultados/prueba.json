@@ -1,0 +1,953 @@
+{
+  "modelo": "sin_aumento.pt",
+  "epoca_modelo": 19,
+  "orden_matriz_confusion": [
+    "angular_leaf_spot",
+    "bean_rust",
+    "healthy"
+  ],
+  "matriz_confusion": [
+    [
+      36,
+      5,
+      2
+    ],
+    [
+      14,
+      22,
+      7
+    ],
+    [
+      2,
+      2,
+      38
+    ]
+  ],
+  "metricas": {
+    "total": 128,
+    "aciertos": 96,
+    "exactitud": 0.75,
+    "f1_macro": 0.741,
+    "por_clase": {
+      "angular_leaf_spot": {
+        "aciertos": 36,
+        "total_real": 43,
+        "precision": 0.6923,
+        "sensibilidad": 0.8372,
+        "f1": 0.7579
+      },
+      "bean_rust": {
+        "aciertos": 22,
+        "total_real": 43,
+        "precision": 0.7586,
+        "sensibilidad": 0.5116,
+        "f1": 0.6111
+      },
+      "healthy": {
+        "aciertos": 38,
+        "total_real": 42,
+        "precision": 0.8085,
+        "sensibilidad": 0.9048,
+        "f1": 0.8539
+      }
+    }
+  },
+  "predicciones": [
+    {
+      "archivo": "1168_test_angular_leaf_spot.jpg",
+      "clase_real": "angular_leaf_spot",
+      "clase_predicha": "angular_leaf_spot",
+      "confianza_prediccion": 0.5129,
+      "correcta": true
+    },
+    {
+      "archivo": "1169_test_angular_leaf_spot.jpg",
+      "clase_real": "angular_leaf_spot",
+      "clase_predicha": "angular_leaf_spot",
+      "confianza_prediccion": 0.7062,
+      "correcta": true
+    },
+    {
+      "archivo": "1170_test_angular_leaf_spot.jpg",
+      "clase_real": "angular_leaf_spot",
+      "clase_predicha": "angular_leaf_spot",
+      "confianza_prediccion": 0.7553,
+      "correcta": true
+    },
+    {
+      "archivo": "1171_test_angular_leaf_spot.jpg",
+      "clase_real": "angular_leaf_spot",
+      "clase_predicha": "angular_leaf_spot",
+      "confianza_prediccion": 0.9185,
+      "correcta": true
+    },
+    {
+      "archivo": "1172_test_angular_leaf_spot.jpg",
+      "clase_real": "angular_leaf_spot",
+      "clase_predicha": "angular_leaf_spot",
+      "confianza_prediccion": 0.6586,
+      "correcta": true
+    },
+    {
+      "archivo": "1173_test_angular_leaf_spot.jpg",
+      "clase_real": "angular_leaf_spot",
+      "clase_predicha": "angular_leaf_spot",
+      "confianza_prediccion": 0.7264,
+      "correcta": true
+    },
+    {
+      "archivo": "1174_test_angular_leaf_spot.jpg",
+      "clase_real": "angular_leaf_spot",
+      "clase_predicha": "angular_leaf_spot",
+      "confianza_prediccion": 0.6903,
+      "correcta": true
+    },
+    {
+      "archivo": "1175_test_angular_leaf_spot.jpg",
+      "clase_real": "angular_leaf_spot",
+      "clase_predicha": "angular_leaf_spot",
+      "confianza_prediccion": 0.6401,
+      "correcta": true
+    },
+    {
+      "archivo": "1176_test_angular_leaf_spot.jpg",
+      "clase_real": "angular_leaf_spot",
+      "clase_predicha": "angular_leaf_spot",
+      "confianza_prediccion": 0.8581,
+      "correcta": true
+    },
+    {
+      "archivo": "1177_test_angular_leaf_spot.jpg",
+      "clase_real": "angular_leaf_spot",
+      "clase_predicha": "angular_leaf_spot",
+      "confianza_prediccion": 0.9787,
+      "correcta": true
+    },
+    {
+      "archivo": "1178_test_angular_leaf_spot.jpg",
+      "clase_real": "angular_leaf_spot",
+      "clase_predicha": "angular_leaf_spot",
+      "confianza_prediccion": 0.842,
+      "correcta": true
+    },
+    {
+      "archivo": "1179_test_angular_leaf_spot.jpg",
+      "clase_real": "angular_leaf_spot",
+      "clase_predicha": "angular_leaf_spot",
+      "confianza_prediccion": 0.5721,
+      "correcta": true
+    },
+    {
+      "archivo": "1180_test_angular_leaf_spot.jpg",
+      "clase_real": "angular_leaf_spot",
+      "clase_predicha": "angular_leaf_spot",
+      "confianza_prediccion": 0.8286,
+      "correcta": true
+    },
+    {
+      "archivo": "1181_test_angular_leaf_spot.jpg",
+      "clase_real": "angular_leaf_spot",
+      "clase_predicha": "bean_rust",
+      "confianza_prediccion": 0.4549,
+      "correcta": false
+    },
+    {
+      "archivo": "1182_test_angular_leaf_spot.jpg",
+      "clase_real": "angular_leaf_spot",
+      "clase_predicha": "angular_leaf_spot",
+      "confianza_prediccion": 0.8942,
+      "correcta": true
+    },
+    {
+      "archivo": "1183_test_angular_leaf_spot.jpg",
+      "clase_real": "angular_leaf_spot",
+      "clase_predicha": "angular_leaf_spot",
+      "confianza_prediccion": 0.543,
+      "correcta": true
+    },
+    {
+      "archivo": "1184_test_angular_leaf_spot.jpg",
+      "clase_real": "angular_leaf_spot",
+      "clase_predicha": "angular_leaf_spot",
+      "confianza_prediccion": 0.9733,
+      "correcta": true
+    },
+    {
+      "archivo": "1185_test_angular_leaf_spot.jpg",
+      "clase_real": "angular_leaf_spot",
+      "clase_predicha": "bean_rust",
+      "confianza_prediccion": 0.4476,
+      "correcta": false
+    },
+    {
+      "archivo": "1186_test_angular_leaf_spot.jpg",
+      "clase_real": "angular_leaf_spot",
+      "clase_predicha": "angular_leaf_spot",
+      "confianza_prediccion": 0.9219,
+      "correcta": true
+    },
+    {
+      "archivo": "1187_test_angular_leaf_spot.jpg",
+      "clase_real": "angular_leaf_spot",
+      "clase_predicha": "angular_leaf_spot",
+      "confianza_prediccion": 0.8939,
+      "correcta": true
+    },
+    {
+      "archivo": "1188_test_angular_leaf_spot.jpg",
+      "clase_real": "angular_leaf_spot",
+      "clase_predicha": "angular_leaf_spot",
+      "confianza_prediccion": 0.7642,
+      "correcta": true
+    },
+    {
+      "archivo": "1189_test_angular_leaf_spot.jpg",
+      "clase_real": "angular_leaf_spot",
+      "clase_predicha": "angular_leaf_spot",
+      "confianza_prediccion": 0.4541,
+      "correcta": true
+    },
+    {
+      "archivo": "1190_test_angular_leaf_spot.jpg",
+      "clase_real": "angular_leaf_spot",
+      "clase_predicha": "angular_leaf_spot",
+      "confianza_prediccion": 0.9511,
+      "correcta": true
+    },
+    {
+      "archivo": "1191_test_angular_leaf_spot.jpg",
+      "clase_real": "angular_leaf_spot",
+      "clase_predicha": "angular_leaf_spot",
+      "confianza_prediccion": 0.8893,
+      "correcta": true
+    },
+    {
+      "archivo": "1192_test_angular_leaf_spot.jpg",
+      "clase_real": "angular_leaf_spot",
+      "clase_predicha": "angular_leaf_spot",
+      "confianza_prediccion": 0.8512,
+      "correcta": true
+    },
+    {
+      "archivo": "1193_test_angular_leaf_spot.jpg",
+      "clase_real": "angular_leaf_spot",
+      "clase_predicha": "angular_leaf_spot",
+      "confianza_prediccion": 0.5883,
+      "correcta": true
+    },
+    {
+      "archivo": "1194_test_angular_leaf_spot.jpg",
+      "clase_real": "angular_leaf_spot",
+      "clase_predicha": "angular_leaf_spot",
+      "confianza_prediccion": 0.937,
+      "correcta": true
+    },
+    {
+      "archivo": "1195_test_angular_leaf_spot.jpg",
+      "clase_real": "angular_leaf_spot",
+      "clase_predicha": "healthy",
+      "confianza_prediccion": 0.8802,
+      "correcta": false
+    },
+    {
+      "archivo": "1196_test_angular_leaf_spot.jpg",
+      "clase_real": "angular_leaf_spot",
+      "clase_predicha": "angular_leaf_spot",
+      "confianza_prediccion": 0.8214,
+      "correcta": true
+    },
+    {
+      "archivo": "1197_test_angular_leaf_spot.jpg",
+      "clase_real": "angular_leaf_spot",
+      "clase_predicha": "angular_leaf_spot",
+      "confianza_prediccion": 0.5991,
+      "correcta": true
+    },
+    {
+      "archivo": "1198_test_angular_leaf_spot.jpg",
+      "clase_real": "angular_leaf_spot",
+      "clase_predicha": "bean_rust",
+      "confianza_prediccion": 0.4584,
+      "correcta": false
+    },
+    {
+      "archivo": "1199_test_angular_leaf_spot.jpg",
+      "clase_real": "angular_leaf_spot",
+      "clase_predicha": "angular_leaf_spot",
+      "confianza_prediccion": 0.7554,
+      "correcta": true
+    },
+    {
+      "archivo": "1200_test_angular_leaf_spot.jpg",
+      "clase_real": "angular_leaf_spot",
+      "clase_predicha": "angular_leaf_spot",
+      "confianza_prediccion": 0.5862,
+      "correcta": true
+    },
+    {
+      "archivo": "1201_test_angular_leaf_spot.jpg",
+      "clase_real": "angular_leaf_spot",
+      "clase_predicha": "bean_rust",
+      "confianza_prediccion": 0.6066,
+      "correcta": false
+    },
+    {
+      "archivo": "1202_test_angular_leaf_spot.jpg",
+      "clase_real": "angular_leaf_spot",
+      "clase_predicha": "bean_rust",
+      "confianza_prediccion": 0.5969,
+      "correcta": false
+    },
+    {
+      "archivo": "1203_test_angular_leaf_spot.jpg",
+      "clase_real": "angular_leaf_spot",
+      "clase_predicha": "angular_leaf_spot",
+      "confianza_prediccion": 0.9808,
+      "correcta": true
+    },
+    {
+      "archivo": "1204_test_angular_leaf_spot.jpg",
+      "clase_real": "angular_leaf_spot",
+      "clase_predicha": "angular_leaf_spot",
+      "confianza_prediccion": 0.9443,
+      "correcta": true
+    },
+    {
+      "archivo": "1205_test_angular_leaf_spot.jpg",
+      "clase_real": "angular_leaf_spot",
+      "clase_predicha": "angular_leaf_spot",
+      "confianza_prediccion": 0.7479,
+      "correcta": true
+    },
+    {
+      "archivo": "1206_test_angular_leaf_spot.jpg",
+      "clase_real": "angular_leaf_spot",
+      "clase_predicha": "angular_leaf_spot",
+      "confianza_prediccion": 0.7596,
+      "correcta": true
+    },
+    {
+      "archivo": "1207_test_angular_leaf_spot.jpg",
+      "clase_real": "angular_leaf_spot",
+      "clase_predicha": "angular_leaf_spot",
+      "confianza_prediccion": 0.8685,
+      "correcta": true
+    },
+    {
+      "archivo": "1208_test_angular_leaf_spot.jpg",
+      "clase_real": "angular_leaf_spot",
+      "clase_predicha": "angular_leaf_spot",
+      "confianza_prediccion": 0.642,
+      "correcta": true
+    },
+    {
+      "archivo": "1209_test_angular_leaf_spot.jpg",
+      "clase_real": "angular_leaf_spot",
+      "clase_predicha": "angular_leaf_spot",
+      "confianza_prediccion": 0.9615,
+      "correcta": true
+    },
+    {
+      "archivo": "1210_test_angular_leaf_spot.jpg",
+      "clase_real": "angular_leaf_spot",
+      "clase_predicha": "healthy",
+      "confianza_prediccion": 0.7141,
+      "correcta": false
+    },
+    {
+      "archivo": "1211_test_bean_rust.jpg",
+      "clase_real": "bean_rust",
+      "clase_predicha": "healthy",
+      "confianza_prediccion": 0.6408,
+      "correcta": false
+    },
+    {
+      "archivo": "1212_test_bean_rust.jpg",
+      "clase_real": "bean_rust",
+      "clase_predicha": "bean_rust",
+      "confianza_prediccion": 0.6598,
+      "correcta": true
+    },
+    {
+      "archivo": "1213_test_bean_rust.jpg",
+      "clase_real": "bean_rust",
+      "clase_predicha": "angular_leaf_spot",
+      "confianza_prediccion": 0.7588,
+      "correcta": false
+    },
+    {
+      "archivo": "1214_test_bean_rust.jpg",
+      "clase_real": "bean_rust",
+      "clase_predicha": "bean_rust",
+      "confianza_prediccion": 0.5806,
+      "correcta": true
+    },
+    {
+      "archivo": "1215_test_bean_rust.jpg",
+      "clase_real": "bean_rust",
+      "clase_predicha": "bean_rust",
+      "confianza_prediccion": 0.6656,
+      "correcta": true
+    },
+    {
+      "archivo": "1216_test_bean_rust.jpg",
+      "clase_real": "bean_rust",
+      "clase_predicha": "angular_leaf_spot",
+      "confianza_prediccion": 0.4304,
+      "correcta": false
+    },
+    {
+      "archivo": "1217_test_bean_rust.jpg",
+      "clase_real": "bean_rust",
+      "clase_predicha": "bean_rust",
+      "confianza_prediccion": 0.4261,
+      "correcta": true
+    },
+    {
+      "archivo": "1218_test_bean_rust.jpg",
+      "clase_real": "bean_rust",
+      "clase_predicha": "angular_leaf_spot",
+      "confianza_prediccion": 0.7611,
+      "correcta": false
+    },
+    {
+      "archivo": "1219_test_bean_rust.jpg",
+      "clase_real": "bean_rust",
+      "clase_predicha": "bean_rust",
+      "confianza_prediccion": 0.8061,
+      "correcta": true
+    },
+    {
+      "archivo": "1220_test_bean_rust.jpg",
+      "clase_real": "bean_rust",
+      "clase_predicha": "angular_leaf_spot",
+      "confianza_prediccion": 0.577,
+      "correcta": false
+    },
+    {
+      "archivo": "1221_test_bean_rust.jpg",
+      "clase_real": "bean_rust",
+      "clase_predicha": "angular_leaf_spot",
+      "confianza_prediccion": 0.4749,
+      "correcta": false
+    },
+    {
+      "archivo": "1222_test_bean_rust.jpg",
+      "clase_real": "bean_rust",
+      "clase_predicha": "bean_rust",
+      "confianza_prediccion": 0.5056,
+      "correcta": true
+    },
+    {
+      "archivo": "1223_test_bean_rust.jpg",
+      "clase_real": "bean_rust",
+      "clase_predicha": "angular_leaf_spot",
+      "confianza_prediccion": 0.5042,
+      "correcta": false
+    },
+    {
+      "archivo": "1224_test_bean_rust.jpg",
+      "clase_real": "bean_rust",
+      "clase_predicha": "bean_rust",
+      "confianza_prediccion": 0.8812,
+      "correcta": true
+    },
+    {
+      "archivo": "1225_test_bean_rust.jpg",
+      "clase_real": "bean_rust",
+      "clase_predicha": "bean_rust",
+      "confianza_prediccion": 0.8734,
+      "correcta": true
+    },
+    {
+      "archivo": "1226_test_bean_rust.jpg",
+      "clase_real": "bean_rust",
+      "clase_predicha": "bean_rust",
+      "confianza_prediccion": 0.6206,
+      "correcta": true
+    },
+    {
+      "archivo": "1227_test_bean_rust.jpg",
+      "clase_real": "bean_rust",
+      "clase_predicha": "bean_rust",
+      "confianza_prediccion": 0.9947,
+      "correcta": true
+    },
+    {
+      "archivo": "1228_test_bean_rust.jpg",
+      "clase_real": "bean_rust",
+      "clase_predicha": "bean_rust",
+      "confianza_prediccion": 0.6175,
+      "correcta": true
+    },
+    {
+      "archivo": "1229_test_bean_rust.jpg",
+      "clase_real": "bean_rust",
+      "clase_predicha": "bean_rust",
+      "confianza_prediccion": 0.7057,
+      "correcta": true
+    },
+    {
+      "archivo": "1230_test_bean_rust.jpg",
+      "clase_real": "bean_rust",
+      "clase_predicha": "bean_rust",
+      "confianza_prediccion": 0.7852,
+      "correcta": true
+    },
+    {
+      "archivo": "1231_test_bean_rust.jpg",
+      "clase_real": "bean_rust",
+      "clase_predicha": "bean_rust",
+      "confianza_prediccion": 0.9908,
+      "correcta": true
+    },
+    {
+      "archivo": "1232_test_bean_rust.jpg",
+      "clase_real": "bean_rust",
+      "clase_predicha": "healthy",
+      "confianza_prediccion": 0.9798,
+      "correcta": false
+    },
+    {
+      "archivo": "1233_test_bean_rust.jpg",
+      "clase_real": "bean_rust",
+      "clase_predicha": "healthy",
+      "confianza_prediccion": 0.8622,
+      "correcta": false
+    },
+    {
+      "archivo": "1234_test_bean_rust.jpg",
+      "clase_real": "bean_rust",
+      "clase_predicha": "bean_rust",
+      "confianza_prediccion": 0.4764,
+      "correcta": true
+    },
+    {
+      "archivo": "1235_test_bean_rust.jpg",
+      "clase_real": "bean_rust",
+      "clase_predicha": "angular_leaf_spot",
+      "confianza_prediccion": 0.64,
+      "correcta": false
+    },
+    {
+      "archivo": "1236_test_bean_rust.jpg",
+      "clase_real": "bean_rust",
+      "clase_predicha": "angular_leaf_spot",
+      "confianza_prediccion": 0.4277,
+      "correcta": false
+    },
+    {
+      "archivo": "1237_test_bean_rust.jpg",
+      "clase_real": "bean_rust",
+      "clase_predicha": "healthy",
+      "confianza_prediccion": 0.4004,
+      "correcta": false
+    },
+    {
+      "archivo": "1238_test_bean_rust.jpg",
+      "clase_real": "bean_rust",
+      "clase_predicha": "bean_rust",
+      "confianza_prediccion": 0.5568,
+      "correcta": true
+    },
+    {
+      "archivo": "1239_test_bean_rust.jpg",
+      "clase_real": "bean_rust",
+      "clase_predicha": "angular_leaf_spot",
+      "confianza_prediccion": 0.544,
+      "correcta": false
+    },
+    {
+      "archivo": "1240_test_bean_rust.jpg",
+      "clase_real": "bean_rust",
+      "clase_predicha": "healthy",
+      "confianza_prediccion": 0.9043,
+      "correcta": false
+    },
+    {
+      "archivo": "1241_test_bean_rust.jpg",
+      "clase_real": "bean_rust",
+      "clase_predicha": "angular_leaf_spot",
+      "confianza_prediccion": 0.7084,
+      "correcta": false
+    },
+    {
+      "archivo": "1242_test_bean_rust.jpg",
+      "clase_real": "bean_rust",
+      "clase_predicha": "healthy",
+      "confianza_prediccion": 0.618,
+      "correcta": false
+    },
+    {
+      "archivo": "1243_test_bean_rust.jpg",
+      "clase_real": "bean_rust",
+      "clase_predicha": "bean_rust",
+      "confianza_prediccion": 0.5932,
+      "correcta": true
+    },
+    {
+      "archivo": "1244_test_bean_rust.jpg",
+      "clase_real": "bean_rust",
+      "clase_predicha": "bean_rust",
+      "confianza_prediccion": 0.7439,
+      "correcta": true
+    },
+    {
+      "archivo": "1245_test_bean_rust.jpg",
+      "clase_real": "bean_rust",
+      "clase_predicha": "bean_rust",
+      "confianza_prediccion": 0.8625,
+      "correcta": true
+    },
+    {
+      "archivo": "1246_test_bean_rust.jpg",
+      "clase_real": "bean_rust",
+      "clase_predicha": "bean_rust",
+      "confianza_prediccion": 0.9908,
+      "correcta": true
+    },
+    {
+      "archivo": "1247_test_bean_rust.jpg",
+      "clase_real": "bean_rust",
+      "clase_predicha": "healthy",
+      "confianza_prediccion": 0.5322,
+      "correcta": false
+    },
+    {
+      "archivo": "1248_test_bean_rust.jpg",
+      "clase_real": "bean_rust",
+      "clase_predicha": "angular_leaf_spot",
+      "confianza_prediccion": 0.468,
+      "correcta": false
+    },
+    {
+      "archivo": "1249_test_bean_rust.jpg",
+      "clase_real": "bean_rust",
+      "clase_predicha": "bean_rust",
+      "confianza_prediccion": 0.5311,
+      "correcta": true
+    },
+    {
+      "archivo": "1250_test_bean_rust.jpg",
+      "clase_real": "bean_rust",
+      "clase_predicha": "bean_rust",
+      "confianza_prediccion": 0.759,
+      "correcta": true
+    },
+    {
+      "archivo": "1251_test_bean_rust.jpg",
+      "clase_real": "bean_rust",
+      "clase_predicha": "angular_leaf_spot",
+      "confianza_prediccion": 0.5699,
+      "correcta": false
+    },
+    {
+      "archivo": "1252_test_bean_rust.jpg",
+      "clase_real": "bean_rust",
+      "clase_predicha": "angular_leaf_spot",
+      "confianza_prediccion": 0.4794,
+      "correcta": false
+    },
+    {
+      "archivo": "1253_test_bean_rust.jpg",
+      "clase_real": "bean_rust",
+      "clase_predicha": "angular_leaf_spot",
+      "confianza_prediccion": 0.5535,
+      "correcta": false
+    },
+    {
+      "archivo": "1254_test_healthy.jpg",
+      "clase_real": "healthy",
+      "clase_predicha": "healthy",
+      "confianza_prediccion": 0.9996,
+      "correcta": true
+    },
+    {
+      "archivo": "1255_test_healthy.jpg",
+      "clase_real": "healthy",
+      "clase_predicha": "healthy",
+      "confianza_prediccion": 0.9641,
+      "correcta": true
+    },
+    {
+      "archivo": "1256_test_healthy.jpg",
+      "clase_real": "healthy",
+      "clase_predicha": "healthy",
+      "confianza_prediccion": 0.6236,
+      "correcta": true
+    },
+    {
+      "archivo": "1257_test_healthy.jpg",
+      "clase_real": "healthy",
+      "clase_predicha": "healthy",
+      "confianza_prediccion": 0.9691,
+      "correcta": true
+    },
+    {
+      "archivo": "1258_test_healthy.jpg",
+      "clase_real": "healthy",
+      "clase_predicha": "healthy",
+      "confianza_prediccion": 0.9974,
+      "correcta": true
+    },
+    {
+      "archivo": "1259_test_healthy.jpg",
+      "clase_real": "healthy",
+      "clase_predicha": "healthy",
+      "confianza_prediccion": 0.5539,
+      "correcta": true
+    },
+    {
+      "archivo": "1260_test_healthy.jpg",
+      "clase_real": "healthy",
+      "clase_predicha": "healthy",
+      "confianza_prediccion": 0.7462,
+      "correcta": true
+    },
+    {
+      "archivo": "1261_test_healthy.jpg",
+      "clase_real": "healthy",
+      "clase_predicha": "healthy",
+      "confianza_prediccion": 0.8994,
+      "correcta": true
+    },
+    {
+      "archivo": "1262_test_healthy.jpg",
+      "clase_real": "healthy",
+      "clase_predicha": "healthy",
+      "confianza_prediccion": 0.9748,
+      "correcta": true
+    },
+    {
+      "archivo": "1263_test_healthy.jpg",
+      "clase_real": "healthy",
+      "clase_predicha": "angular_leaf_spot",
+      "confianza_prediccion": 0.3864,
+      "correcta": false
+    },
+    {
+      "archivo": "1264_test_healthy.jpg",
+      "clase_real": "healthy",
+      "clase_predicha": "healthy",
+      "confianza_prediccion": 0.761,
+      "correcta": true
+    },
+    {
+      "archivo": "1265_test_healthy.jpg",
+      "clase_real": "healthy",
+      "clase_predicha": "healthy",
+      "confianza_prediccion": 0.899,
+      "correcta": true
+    },
+    {
+      "archivo": "1266_test_healthy.jpg",
+      "clase_real": "healthy",
+      "clase_predicha": "healthy",
+      "confianza_prediccion": 0.9792,
+      "correcta": true
+    },
+    {
+      "archivo": "1267_test_healthy.jpg",
+      "clase_real": "healthy",
+      "clase_predicha": "healthy",
+      "confianza_prediccion": 0.9258,
+      "correcta": true
+    },
+    {
+      "archivo": "1268_test_healthy.jpg",
+      "clase_real": "healthy",
+      "clase_predicha": "healthy",
+      "confianza_prediccion": 0.9697,
+      "correcta": true
+    },
+    {
+      "archivo": "1269_test_healthy.jpg",
+      "clase_real": "healthy",
+      "clase_predicha": "healthy",
+      "confianza_prediccion": 0.907,
+      "correcta": true
+    },
+    {
+      "archivo": "1270_test_healthy.jpg",
+      "clase_real": "healthy",
+      "clase_predicha": "healthy",
+      "confianza_prediccion": 0.9274,
+      "correcta": true
+    },
+    {
+      "archivo": "1271_test_healthy.jpg",
+      "clase_real": "healthy",
+      "clase_predicha": "healthy",
+      "confianza_prediccion": 0.9783,
+      "correcta": true
+    },
+    {
+      "archivo": "1272_test_healthy.jpg",
+      "clase_real": "healthy",
+      "clase_predicha": "healthy",
+      "confianza_prediccion": 0.9957,
+      "correcta": true
+    },
+    {
+      "archivo": "1273_test_healthy.jpg",
+      "clase_real": "healthy",
+      "clase_predicha": "healthy",
+      "confianza_prediccion": 0.9539,
+      "correcta": true
+    },
+    {
+      "archivo": "1274_test_healthy.jpg",
+      "clase_real": "healthy",
+      "clase_predicha": "bean_rust",
+      "confianza_prediccion": 0.7809,
+      "correcta": false
+    },
+    {
+      "archivo": "1275_test_healthy.jpg",
+      "clase_real": "healthy",
+      "clase_predicha": "healthy",
+      "confianza_prediccion": 0.7229,
+      "correcta": true
+    },
+    {
+      "archivo": "1276_test_healthy.jpg",
+      "clase_real": "healthy",
+      "clase_predicha": "healthy",
+      "confianza_prediccion": 0.9855,
+      "correcta": true
+    },
+    {
+      "archivo": "1277_test_healthy.jpg",
+      "clase_real": "healthy",
+      "clase_predicha": "healthy",
+      "confianza_prediccion": 0.9804,
+      "correcta": true
+    },
+    {
+      "archivo": "1278_test_healthy.jpg",
+      "clase_real": "healthy",
+      "clase_predicha": "healthy",
+      "confianza_prediccion": 0.8539,
+      "correcta": true
+    },
+    {
+      "archivo": "1279_test_healthy.jpg",
+      "clase_real": "healthy",
+      "clase_predicha": "healthy",
+      "confianza_prediccion": 0.9904,
+      "correcta": true
+    },
+    {
+      "archivo": "1280_test_healthy.jpg",
+      "clase_real": "healthy",
+      "clase_predicha": "healthy",
+      "confianza_prediccion": 0.9978,
+      "correcta": true
+    },
+    {
+      "archivo": "1281_test_healthy.jpg",
+      "clase_real": "healthy",
+      "clase_predicha": "healthy",
+      "confianza_prediccion": 0.9082,
+      "correcta": true
+    },
+    {
+      "archivo": "1282_test_healthy.jpg",
+      "clase_real": "healthy",
+      "clase_predicha": "healthy",
+      "confianza_prediccion": 0.9888,
+      "correcta": true
+    },
+    {
+      "archivo": "1283_test_healthy.jpg",
+      "clase_real": "healthy",
+      "clase_predicha": "bean_rust",
+      "confianza_prediccion": 0.8035,
+      "correcta": false
+    },
+    {
+      "archivo": "1284_test_healthy.jpg",
+      "clase_real": "healthy",
+      "clase_predicha": "healthy",
+      "confianza_prediccion": 0.7258,
+      "correcta": true
+    },
+    {
+      "archivo": "1285_test_healthy.jpg",
+      "clase_real": "healthy",
+      "clase_predicha": "healthy",
+      "confianza_prediccion": 0.9978,
+      "correcta": true
+    },
+    {
+      "archivo": "1286_test_healthy.jpg",
+      "clase_real": "healthy",
+      "clase_predicha": "healthy",
+      "confianza_prediccion": 0.9903,
+      "correcta": true
+    },
+    {
+      "archivo": "1287_test_healthy.jpg",
+      "clase_real": "healthy",
+      "clase_predicha": "angular_leaf_spot",
+      "confianza_prediccion": 0.4652,
+      "correcta": false
+    },
+    {
+      "archivo": "1288_test_healthy.jpg",
+      "clase_real": "healthy",
+      "clase_predicha": "healthy",
+      "confianza_prediccion": 0.6539,
+      "correcta": true
+    },
+    {
+      "archivo": "1289_test_healthy.jpg",
+      "clase_real": "healthy",
+      "clase_predicha": "healthy",
+      "confianza_prediccion": 0.4024,
+      "correcta": true
+    },
+    {
+      "archivo": "1290_test_healthy.jpg",
+      "clase_real": "healthy",
+      "clase_predicha": "healthy",
+      "confianza_prediccion": 0.9835,
+      "correcta": true
+    },
+    {
+      "archivo": "1291_test_healthy.jpg",
+      "clase_real": "healthy",
+      "clase_predicha": "healthy",
+      "confianza_prediccion": 0.9188,
+      "correcta": true
+    },
+    {
+      "archivo": "1292_test_healthy.jpg",
+      "clase_real": "healthy",
+      "clase_predicha": "healthy",
+      "confianza_prediccion": 0.9285,
+      "correcta": true
+    },
+    {
+      "archivo": "1293_test_healthy.jpg",
+      "clase_real": "healthy",
+      "clase_predicha": "healthy",
+      "confianza_prediccion": 0.9973,
+      "correcta": true
+    },
+    {
+      "archivo": "1294_test_healthy.jpg",
+      "clase_real": "healthy",
+      "clase_predicha": "healthy",
+      "confianza_prediccion": 0.9918,
+      "correcta": true
+    },
+    {
+      "archivo": "1295_test_healthy.jpg",
+      "clase_real": "healthy",
+      "clase_predicha": "healthy",
+      "confianza_prediccion": 0.9994,
+      "correcta": true
+    }
+  ]
+}
