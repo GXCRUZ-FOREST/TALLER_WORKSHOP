@@ -12,4 +12,5 @@ El trabajo se desarrollará según [PLAN_CNN.md](PLAN_CNN.md). Cada etapa termin
 - [Etapa 2: preparación de imágenes y etiquetas](02_preparacion/RESULTADOS.md)
 - [Etapa 3: arquitectura de la CNN pequeña](03_modelo/RESULTADOS.md)
 - [Etapa 4: entrenamiento y selección por validación](04_entrenamiento/RESULTADOS.md)
+- [Etapa 5: evaluación con imágenes de prueba](05_evaluacion/RESULTADOS.md)
 
