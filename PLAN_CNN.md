@@ -78,3 +78,7 @@ El repositorio contendrá el cuaderno o código, instrucciones, configuración, 
 
 Cada avance terminado se registrará con un commit y se enviará a `main` para que GitHub sea la copia permanente del trabajo.
 
+## Cierre añadido
+
+Después de las seis etapas originales se añadió una [etapa 7](07_cierre/RESULTADOS.md) con la síntesis y un cuaderno para ejecutar el proyecto en Google Colab sin duplicar el conjunto de imágenes en el PC.
+
