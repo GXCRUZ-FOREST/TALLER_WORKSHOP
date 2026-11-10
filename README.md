@@ -6,3 +6,7 @@ La tarea consiste en clasificar fotografías de hojas de frijol en tres clases: 
 
 El trabajo se desarrollará según [PLAN_CNN.md](PLAN_CNN.md). Cada etapa terminada tendrá código, resultados y una explicación en este repositorio.
 
+## Avances
+
+- [Etapa 1: exploración y verificación de las imágenes](01_datos/RESULTADOS.md)
+
